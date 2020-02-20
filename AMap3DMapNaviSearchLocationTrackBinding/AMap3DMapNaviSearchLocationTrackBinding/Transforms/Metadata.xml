@@ -1,0 +1,386 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/class[@name='cr']"
+        name="obfuscated">false</attr>            
+  
+  <attr path="/api/package[@name='com.amap.api.maps']/interface[@name='AMap.OnMapScreenShotListener']/method[@name='onMapScreenShot' and count(parameter)=2 and parameter[1][@type='android.graphics.Bitmap'] and parameter[2][@type='int']]"
+        name="managedName">OnMapScreenShot2</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.maps']/class[@name='AMapOptionsCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedName">RawNewArray</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='ArcOptionsCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]"
+        name="managedName">RawCreateFromParcel</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.maps']/interface[@name='AMap.OnMapScreenShotListener']/method[@name='onMapScreenShot' and count(parameter)=2 and parameter[1][@type='android.graphics.Bitmap'] and parameter[2][@type='int']]/parameter[@name='p0']"
+        name="name">api1</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='ArcOptionsCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedName">RawNewArray</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='BitmapDescriptorCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]"
+        name="managedName">RawCreateFromParcel</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='BitmapDescriptorCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedName">RawNewArray</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='LatLngCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]"
+        name="managedName">RawCreateFromParcel</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='CameraPositionCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedName">RawNewArray</attr>
+
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/interface[@name='sq.a']"
+        name="obfuscated">false</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='CircleOptionsCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedName">RawNewArray</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='GroundOverlayOptionsCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]"
+        name="managedName">RawCreateFromParcel</attr>
+
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/class[@name='kd']"
+        name="obfuscated">false</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/class[@name='kc']"
+        name="obfuscated">false</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='CircleOptionsCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]"
+        name="managedName">RawCreateFromParcel</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/interface[@name='yh']"
+        name="obfuscated">false</attr>      
+  
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/class[@name='kb.a']"
+        name="obfuscated">false</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='CameraPositionCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]"
+        name="managedName">RawCreateFromParcel</attr>  
+  
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/class[@name='jy']"
+        name="obfuscated">false</attr>  
+  
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='GroundOverlayOptionsCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedName">RawNewArray</attr>
+
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/class[@name='gj']"
+        name="obfuscated">false</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='LatLngBoundsCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]"
+        name="managedName">RawCreateFromParcel</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/interface[@name='iu']"
+        name="obfuscated">false</attr>    
+
+  <attr path="/api/package[@name='com.autonavi.base.amap.api.mapcore.overlays']/interface[@name='IOverlayImageDelegate']/method[@name='getIMarkerAction']"
+    name="name">IOverlayImageDelegateGetIMarkerAction</attr>  
+  
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='LatLngCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedName">RawNewArray</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='MarkerOptionsCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]"
+        name="managedName">RawCreateFromParcel</attr>
+
+  <attr path="/api/package[@name='com.amap.api.services.help']/class[@name='Inputtips']"
+        name="managedName">TheInputtips</attr>
+    
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='MarkerOptionsCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedName">RawNewArray</attr>
+
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/class[@name='fy']"
+        name="obfuscated">false</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='NavigateArrowOptionsCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedName">RawNewArray</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/class[@name='sq']"
+        name="obfuscated">false</attr>  
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='MyLocationStyleCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]"
+        name="managedName">RawCreateFromParcel</attr>
+
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/class[@name='fh']"
+        name="obfuscated">false</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='MyLocationStyleCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedName">RawNewArray</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='NavigateArrowOptionsCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]"
+        name="managedName">RawCreateFromParcel</attr>    
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='PoiCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]"
+        name="managedName">RawCreateFromParcel</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='b']"
+    name="obfuscated">false</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='PoiCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedName">RawNewArray</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='PolygonOptionsCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]"
+        name="managedName">RawCreateFromParcel</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps']/interface[@name='AMap.OnMapScreenShotListener']/method[@name='onMapScreenShot' and count(parameter)=2 and parameter[1][@type='android.graphics.Bitmap'] and parameter[2][@type='int']]/parameter[@name='p1']"
+        name="name">api2</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='PolygonOptionsCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedName">RawNewArray</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='TextOptionsCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]"
+        name="managedName">RawCreateFromParcel</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='PolylineOptionsCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]"
+        name="managedName">RawCreateFromParcel</attr>
+
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/class[@name='dl']"
+        name="obfuscated">false</attr>
+  
+  <remove-node path="/api/package[@name='com.autonavi.base.amap.mapcore']/class[@name='AMapNativeRenderer']/method[@name='nativeDrawLineByTextureID' and count(parameter)=16]" />
+  
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='PolylineOptionsCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedName">RawNewArray</attr>  
+  
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='TextOptionsCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedName">RawNewArray</attr>
+
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/class[@name='kb']"
+        name="obfuscated">false</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='TileOverlayOptionsCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]"
+        name="managedName">RawCreateFromParcel</attr>
+
+  <attr path="/api/package[@name='com.amap.api.services.traffic']/class[@name='TrafficSearch']"
+        name="managedName">TheTrafficSearch</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/class[@name='fx']"
+        name="obfuscated">false</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='TileOverlayOptionsCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedName">RawNewArray</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='TileProjectionCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]"
+        name="managedName">RawCreateFromParcel</attr>
+  
+  
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/interface[@name='iv']"
+        name="obfuscated">false</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='TileProjectionCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedName">RawNewArray</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='VisibleRegionCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]"
+        name="managedName">RawCreateFromParcel</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='LatLngBoundsCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedName">RawNewArray</attr>    
+
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/interface[@name='cs.a']"
+        name="obfuscated">false</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='b']"
+        name="visibility">public</attr>    
+
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/interface[@name='yk']"
+        name="obfuscated">false</attr>
+  
+  <attr path="/api/package[@name='com.autonavi.amap.mapcore.interfaces']/interface[@name='IMarker']/method[@name='isInfoWindowShown']"
+    name="name">IMarkerIsInfoWindowShown</attr>
+  
+  <attr path="/api/package[@name='com.autonavi.base.amap.api.mapcore.overlays']/interface[@name='IOverlayImageDelegate']/method[@name='isInfoWindowShown']"
+    name="name">IOverlayImageDelegateIsInfoWindowShown</attr>
+
+  <attr path="/api/package[@name='com.amap.api.services.busline']/class[@name='BusLineSearch']"
+        name="managedName">TheBusLineSearch</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/class[@name='cs']"
+        name="obfuscated">false</attr>   
+  
+  <attr path="/api/package[@name='com.amap.api.services.busline']/class[@name='BusStationSearch']"
+        name="managedName">TheBusStationSearch</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.services.district']/class[@name='DistrictSearch']"
+        name="managedName">TheDistrictSearch</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.services.route']/class[@name='DistanceSearch']"
+        name="managedName">TheDistanceSearch</attr>
+
+  <attr path="/api/package[@name='com.amap.api.maps']/class[@name='AMapOptionsCreator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]"
+        name="managedName">RawCreateFromParcel</attr>    
+    
+  <attr path="/api/package[@name='com.amap.api.services.traffic']/class[@name='a']"
+        name="visibility">public</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/class[@name='gq']"
+        name="obfuscated">false</attr>  
+
+  <attr path="/api/package[@name='com.alibaba.idst.nls.nlsclientsdk.transport']/interface[@name='ConnectionListener']/method[@name='onMessage' and count(parameter)=1 and parameter[1][@type='java.lang.String']]"
+          name="managedName">OnMessage1</attr>    
+
+  <attr path="/api/package[@name='com.amap.api.navi']/interface[@name='AMapNaviListener']/method[@name='OnUpdateTrafficFacility' and count(parameter)=1 and parameter[1][@type='com.amap.api.navi.model.AMapNaviTrafficFacilityInfo']]"
+        name="managedName">OnAMapNaviListenerUpdateTrafficFacility1</attr>
+
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/interface[@name='ye']"
+        name="obfuscated">false</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.maps.model']/class[@name='VisibleRegionCreator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedName">RawNewArray</attr>  
+
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/interface[@name='yd']"
+        name="obfuscated">false</attr>
+
+  <remove-node path="/api/package[@name='com.amap.api.track.query.model']/class[@name='DistanceRequest']/method[@name='getUrl' and count(parameter)=0]" />
+  
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/class[@name='js']"
+        name="obfuscated">false</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/interface[@name='js.a']"
+        name="obfuscated">false</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/class[@name='ch']"
+        name="obfuscated">false</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.navi']/interface[@name='AMapNaviListener']/method[@name='OnUpdateTrafficFacility' and count(parameter)=1 and parameter[1][@type='com.amap.api.navi.model.AMapNaviTrafficFacilityInfo[]']]"
+        name="managedName">OnAMapNaviListenerUpdateTrafficFacility2</attr>
+
+  <remove-node path="/api/package[@name='com.autonavi.ae.pos']/class[@name='LocMatchInfo']/constructor[@name='LocMatchInfo' and count(parameter)=15]" />
+  
+  <attr path="/api/package[@name='com.amap.api.navi']/interface[@name='AMapNaviListener']/method[@name='OnUpdateTrafficFacility' and count(parameter)=1 and parameter[1][@type='com.autonavi.tbt.TrafficFacilityInfo']]"
+        name="managedName">OnAMapNaviListenerUpdateTrafficFacility3</attr>
+
+  <attr path="/api/package[@name='com.amap.api.navi']/interface[@name='AMapNaviListener']/method[@name='onCalculateRouteSuccess' and count(parameter)=1 and parameter[1][@type='com.amap.api.navi.model.AMapCalcRouteResult']]"
+        name="managedName">OnCalculateRouteSuccess1</attr>
+  
+  <attr path="/api/package[@name='com.autonavi.ae.route.model']/class[@name='RerouteOption']/method[@name='getRequestRouteType' and count(parameter)=0]"
+        name="managedName">TheRequestRouteType</attr>
+  
+  <remove-node path="/api/package[@name='com.amap.api.navi']/class[@name='AMapNavi']/method[@name='setAMapNaviListener' and count(parameter)=1 and parameter[1][@type='com.amap.api.navi.AMapNaviListener']]" />
+        
+  <attr path="/api/package[@name='com.amap.api.navi']/interface[@name='AMapNaviListener']/method[@name='onCalculateRouteFailure' and count(parameter)=1 and parameter[1][@type='com.amap.api.navi.model.AMapCalcRouteResult']]"
+          name="managedName">OnCalculateRouteFailure1</attr>  
+
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/class[@name='xg']"
+        name="obfuscated">false</attr>
+
+  <attr path="/api/package[@name='com.amap.api.navi']/interface[@name='AMapNaviListener']/method[@name='showLaneInfo' and count(parameter)=3 and parameter[1][@type='com.amap.api.navi.model.AMapLaneInfo[]'] and parameter[2][@type='byte[]'] and parameter[3][@type='byte[]']]"
+        name="managedName">ShowLaneInfo2</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/class[@name='xd']"
+        name="obfuscated">false</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.navi']/interface[@name='AMapNaviListener']/method[@name='onCalculateRouteFailure' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedName">OnCalculateRouteFailure2</attr>  
+  
+  <remove-node path="/api/package[@name='com.autonavi.base.amap.mapcore']/class[@name='AMapNativePolyline']/method[@name='nativeDrawLineByTextureID' and count(parameter)=16]" />
+  
+  <attr path="/api/package[@name='com.amap.api.navi']/interface[@name='AMapNaviListener']/method[@name='onCalculateRouteSuccess' and count(parameter)=1 and parameter[1][@type='int[]']]"
+        name="managedName">OnCalculateRouteSuccess2</attr>
+
+  <attr path="/api/package[@name='com.amap.api.navi']/interface[@name='AMapNaviListener']/method[@name='onGetNavigationText' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='java.lang.String']]"
+        name="managedName">OnGetNavigationText1</attr>
+
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/interface[@name='ch.f']"
+        name="obfuscated">false</attr>
+
+  <attr path="/api/package[@name='com.amap.api.navi.core.view']/class[@name='BaseNaviView.a']"
+        name="visibility">public</attr>
+    
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/class[@name='gr']"
+        name="obfuscated">false</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.navi']/interface[@name='AMapNaviListener']/method[@name='onGetNavigationText' and count(parameter)=1 and parameter[1][@type='java.lang.String']]"
+        name="managedName">OnGetNavigationText2</attr>
+
+  <attr path="/api/package[@name='com.amap.api.navi']/interface[@name='AMapNaviListener']/method[@name='showLaneInfo' and count(parameter)=1 and parameter[1][@type='com.amap.api.navi.model.AMapLaneInfo']]"
+        name="managedName">ShowLaneInfo1</attr>
+
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/interface[@name='xx']"
+        name="obfuscated">false</attr>    
+
+  <attr path="/api/package[@name='com.amap.api.navi']/interface[@name='AMapNaviListener']/method[@name='updateAimlessModeCongestionInfo' and count(parameter)=1 and parameter[1][@type='com.amap.api.navi.model.AimLessModeCongestionInfo']]"
+        name="managedName">UpdateAMapNaviListenerAimlessModeCongestionInfo</attr>
+  
+  <remove-node path="/api/package[@name='com.autonavi.base.amap.mapcore']/class[@name='AMapNativeRenderer']/method[@name='nativeDrawLineByTextureID' and count(parameter)=17]" />    
+
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/class[@name='xa']"
+        name="obfuscated">false</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.navi']/interface[@name='AMapNaviListener']/method[@name='updateAimlessModeStatistics' and count(parameter)=1 and parameter[1][@type='com.amap.api.navi.model.AimLessModeStat']]"
+      name="managedName">UpdateAMapNaviListenerAimlessModeStatistics</attr>
+
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/interface[@name='xb']"
+        name="obfuscated">false</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.navi']/interface[@name='AimlessModeListener']/method[@name='updateAimlessModeStatistics' and count(parameter)=1 and parameter[1][@type='com.amap.api.navi.model.AimLessModeStat']]"
+        name="managedName">UpdateAimlessModeListenerAimlessModeStatistics</attr>
+  
+  <attr path="/api/package[@name='com.autonavi.ae.route.model']/class[@name='TipInfo']/field[@name='tipInfo']"
+        name="managedName">TheTipInfo</attr>
+  
+  <remove-node path="/api/package[@name='com.amap.api.navi']/class[@name='AMapNavi']/method[@name='setNaviLocation' and count(parameter)=1 and parameter[1][@type='java.lang.String']]" />
+
+  <attr path="/api/package[@name='com.amap.api.navi.core.view']/class[@name='a']"
+          name="obfuscated">false</attr>
+
+  <remove-node path="/api/package[@name='com.amap.api.navi.core.view']/class[@name='BaseNaviView']/method[@name='onLayout' and count(parameter)=5 and parameter[1][@type='boolean'] and parameter[2][@type='int'] and parameter[3][@type='int'] and parameter[4][@type='int'] and parameter[5][@type='int']]" />
+
+  <attr path="/api/package[@name='com.amap.api.navi.core.view']/class[@name='BaseNaviView.a']"
+          name="obfuscated">false</attr>  
+
+  <attr path="/api/package[@name='com.amap.api.navi.services.view']/class[@name='a']"
+            name="obfuscated">false</attr>
+
+  <remove-node path="/api/package[@name='com.amap.api.track.query.model']/class[@name='AddTerminalRequest']/method[@name='getUrl' and count(parameter)=0]" />
+
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/class[@name='xx.a']"
+        name="obfuscated">false</attr>
+  
+  <remove-node path="/api/package[@name='com.amap.api.track.query.model']/class[@name='LatestPointRequest']/method[@name='getUrl' and count(parameter)=0]" />
+
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/class[@name='pm']"
+        name="obfuscated">false</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/class[@name='st']"
+        name="obfuscated">false</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.services.traffic']/class[@name='a']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/interface[@name='xe']"
+        name="obfuscated">false</attr>
+
+  <attr path="/api/package[@name='com.alibaba.idst.nls.nlsclientsdk.transport']/interface[@name='ConnectionListener']/method[@name='onMessage' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]"
+        name="managedName">OnMessage2</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/class[@name='xc']"
+        name="obfuscated">false</attr>       
+
+  <remove-node path="/api/package[@name='com.amap.api.track.query.model']/class[@name='HistoryTrackRequest']/method[@name='getUrl' and count(parameter)=0]" />
+  
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/class[@name='xf']"
+        name="obfuscated">false</attr>  
+
+  <attr path="/api/package[@name='com.amap.api.navi']/interface[@name='AimlessModeListener']/method[@name='updateAimlessModeCongestionInfo' and count(parameter)=1 and parameter[1][@type='com.amap.api.navi.model.AimLessModeCongestionInfo']]"
+        name="managedName">UpdateAimlessModeListenerAimlessModeCongestionInfo</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/interface[@name='yc']"
+        name="obfuscated">false</attr>
+
+  <remove-node path="/api/package[@name='com.amap.api.navi']/class[@name='AMapNavi']/method[@name='getNaviLocation' and count(parameter)=0]" />
+  
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/interface[@name='yj']"
+        name="obfuscated">false</attr>
+  
+  <remove-node path="/api/package[@name='com.autonavi.ae.pos']/class[@name='LocInfo']/constructor[@name='LocInfo' and count(parameter)=34]" />
+    
+  <attr path="/api/package[@name='com.autonavi.amap.mapcore.interfaces']/interface[@name='IMarker']/method[@name='getIMarkerAction']"
+    name="name">IMarkerGetIMarkerAction</attr>
+  
+  <attr path="/api/package[@name='com.amap.api.col.stln3']/interface[@name='ch.e']"
+        name="obfuscated">false</attr>      
+  
+</metadata>
